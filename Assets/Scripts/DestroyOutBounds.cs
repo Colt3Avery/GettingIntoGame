@@ -7,12 +7,6 @@ public class DestroyOutBounds : MonoBehaviour
     private float outOfBoundsN = 30.0f;
     private float outOfBoundsS = -15.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -20,8 +14,8 @@ public class DestroyOutBounds : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        if (transform.position.z <= outOfBoundsS)
+        // else if: is to optimize code
+        else if (transform.position.z <= outOfBoundsS)
         {
             Destroy(gameObject);
         }
