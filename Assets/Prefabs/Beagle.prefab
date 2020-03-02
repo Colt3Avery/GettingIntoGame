@@ -4385,6 +4385,7 @@ GameObject:
   - component: {fileID: 1400091019765059231}
   - component: {fileID: 1400091019774101355}
   - component: {fileID: 1400091018534693137}
+  - component: {fileID: -2208980354345672306}
   m_Layer: 0
   m_Name: Beagle
   m_TagString: Untagged
@@ -4475,6 +4476,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &-2208980354345672306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400091019764746185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d406d2baeab0042b504f02c5514cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1400091019764749027
 GameObject:
   m_ObjectHideFlags: 0
