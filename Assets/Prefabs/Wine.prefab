@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5272757803058568011}
   - component: {fileID: 5272757803058568008}
   - component: {fileID: 5272757803058568005}
+  - component: {fileID: 4840330771166703322}
   m_Layer: 0
-  m_Name: WineProjectile
+  m_Name: Wine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,3 +93,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 13
+--- !u!114 &4840330771166703322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5272757803058568009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d406d2baeab0042b504f02c5514cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
